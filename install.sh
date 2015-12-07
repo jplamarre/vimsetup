@@ -7,4 +7,5 @@ ln -s ~/.vim/.vimrc ~/.vimrc
 cd ~/.vim
 git submodule init
 git submodule update
+export PATH=$PATH:~/.vim/bundle/phpmd/src/bin
 echo "Done"
